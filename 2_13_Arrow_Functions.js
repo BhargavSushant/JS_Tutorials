@@ -1,4 +1,5 @@
 // 2.13 Arrow Functions
+// ES6 introduced arrow functions
 // Arrow functions provide a concise syntax for writing functions in JavaScript.
 // They are particularly useful for writing short functions and maintaining the context of `this`.
 // Arrow functions do not have their own `this` context, which makes them ideal for methods that need to access the surrounding context.
@@ -19,11 +20,11 @@
 const greet = () => {
   console.log("Hello, world!");
 };
-greet();
+greet(); // Output: Hello, world!
 
 // 12.13.2 Arrow Functions with Implicit Return
 // If the body contains only a single expression, you can omit the braces and the return keyword.
-const add = (a, b) => a + b;
+const add = (a, b) => a + b; //iefe , immidietly excutable function expression
 console.log(`Add: ${add(2, 3)}`);
 
 // 12.13.3 Arrow Functions with Parameters
