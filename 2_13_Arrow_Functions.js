@@ -32,7 +32,7 @@ console.log(`Add: ${add(2, 3)}`);
 const square = (x) => x * x;
 console.log(`Square: ${square(5)}`);
 
-const multiply = (a, b) => a * b;
+const  = (a, b) => a * b;
 console.log(`Multiply: ${multiply(4, 5)}`);
 
 // 12.13.4 Arrow Functions and `this` Keyword
